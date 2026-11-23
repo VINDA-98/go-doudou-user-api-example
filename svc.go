@@ -6,7 +6,7 @@ package service
 
 import (
 	"context"
-	"github.com/VINDA-98/doudou-test/dto"
+	"github.com/VINDA-98/go-doudou-user-api-example/dto"
 )
 
 //go:generate go-doudou svc http -c

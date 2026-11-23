@@ -7,8 +7,8 @@ package service
 import (
 	"context"
 
-	"github.com/VINDA-98/doudou-test/config"
-	"github.com/VINDA-98/doudou-test/dto"
+	"github.com/VINDA-98/go-doudou-user-api-example/config"
+	"github.com/VINDA-98/go-doudou-user-api-example/dto"
 	"github.com/brianvoe/gofakeit/v6"
 )
 

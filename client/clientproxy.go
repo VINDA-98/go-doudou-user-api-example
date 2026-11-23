@@ -8,7 +8,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/VINDA-98/doudou-test/dto"
+	"github.com/VINDA-98/go-doudou-user-api-example/dto"
 	"github.com/go-resty/resty/v2"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
@@ -160,7 +160,7 @@ func NewDoudouTestClientProxy(client *DoudouTestClient, opts ...ProxyOption) *Do
 
 	if cp.runner == nil {
 		var mid []goresilience.Middleware
-		mid = append(mid, metrics.NewMiddleware("github.com/VINDA-98/doudou-test_client", metrics.NewPrometheusRecorder(prometheus.DefaultRegisterer)))
+		mid = append(mid, metrics.NewMiddleware("github.com/VINDA-98/go-doudou-user-api-example_client", metrics.NewPrometheusRecorder(prometheus.DefaultRegisterer)))
 		mid = append(mid, circuitbreaker.NewMiddleware(circuitbreaker.Config{
 			ErrorPercentThresholdToOpen:        50,
 			MinimumRequestToOpen:               6,

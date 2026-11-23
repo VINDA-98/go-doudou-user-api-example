@@ -9,8 +9,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	service "github.com/VINDA-98/doudou-test"
-	"github.com/VINDA-98/doudou-test/dto"
+	service "github.com/VINDA-98/go-doudou-user-api-example"
+	"github.com/VINDA-98/go-doudou-user-api-example/dto"
 	"github.com/unionj-cloud/go-doudou/v2/framework/rest"
 	"github.com/unionj-cloud/go-doudou/v2/framework/rest/httprouter"
 	"github.com/unionj-cloud/go-doudou/v2/toolkit/cast"

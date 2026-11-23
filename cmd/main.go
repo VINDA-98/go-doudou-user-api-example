@@ -5,9 +5,9 @@
 package main
 
 import (
-	service "github.com/VINDA-98/doudou-test"
-	"github.com/VINDA-98/doudou-test/config"
-	"github.com/VINDA-98/doudou-test/transport/httpsrv"
+	service "github.com/VINDA-98/go-doudou-user-api-example"
+	"github.com/VINDA-98/go-doudou-user-api-example/config"
+	"github.com/VINDA-98/go-doudou-user-api-example/transport/httpsrv"
 	"github.com/unionj-cloud/go-doudou/v2/framework/rest"
 )
 

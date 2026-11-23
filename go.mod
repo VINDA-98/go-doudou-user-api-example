@@ -1,4 +1,4 @@
-module github.com/VINDA-98/doudou-test
+module github.com/VINDA-98/go-doudou-user-api-example
 
 go 1.19
 

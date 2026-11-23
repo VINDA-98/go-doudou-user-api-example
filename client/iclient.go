@@ -7,7 +7,7 @@ package client
 import (
 	"context"
 
-	"github.com/VINDA-98/doudou-test/dto"
+	"github.com/VINDA-98/go-doudou-user-api-example/dto"
 	"github.com/go-resty/resty/v2"
 )
 

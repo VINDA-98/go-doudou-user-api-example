@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/VINDA-98/doudou-test/dto"
+	"github.com/VINDA-98/go-doudou-user-api-example/dto"
 	"github.com/go-resty/resty/v2"
 	"github.com/klauspost/compress/gzip"
 	"github.com/opentracing-contrib/go-stdlib/nethttp"
