@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md)
 
-A Go example built from the go-doudou v2.1.5 service scaffold. It shows how a Go interface for user operations connects to generated HTTP routes, a typed client and an OpenAPI 3 contract. The service implementation returns fake data or acknowledges writes without storing them.
+A go-doudou v2.1.5 scaffold example that connects a Go user-service interface to generated HTTP routes, a typed client and an OpenAPI 3 contract. Reads return generated fixtures, and writes are acknowledged without persistence.
 
 ## Read the code
 
